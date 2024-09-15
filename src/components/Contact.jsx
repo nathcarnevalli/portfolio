@@ -25,7 +25,11 @@ const ContactCard = ({ index, name, link, icon }) => {
         <div>
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           {name !== "Telefone" && name !== "Email" ? (
-            <a href={link} className=" text-secondary text-[14px]">
+            <a
+              href={link}
+              className=" text-secondary text-[14px]"
+              target="_blank"
+            >
               {link}
             </a>
           ) : (
