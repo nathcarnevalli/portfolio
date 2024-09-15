@@ -3,7 +3,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
   html,
   css,
@@ -14,7 +13,6 @@ import {
   mongodb,
   git,
   figma,
-  postgresql,
   mysql,
   linux,
   onecommunity,
@@ -73,10 +71,6 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -111,10 +105,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
   },
   {
     name: "MySQL",
