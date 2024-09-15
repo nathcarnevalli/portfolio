@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Sou uma desenvolvedora de software fullstack apaixonada por resolver
+        Sou uma desenvolvedora de software fullstack apaixonada em resolver
         problemas, sempre buscando soluções criativas e eficientes para desafios
         complexos. Com experiência em diversas tecnologias, estou comprometida
         em criar aplicações robustas e inovadoras.

@@ -160,7 +160,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -173,7 +173,7 @@ const projects = [
       "Site que busca facilitar o contato direto com a advogada Elaine Rodrigues, seus serviços e novidades.",
     tags: [
       {
-        name: "reactjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -181,7 +181,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
