@@ -8,27 +8,26 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import postgresql from "./tech/postgreesql.png";
 import mysql from "./tech/mysql.png";
 import linux from "./tech/linux.png";
 import nextjs from "./tech/nextjs.png";
 
 import onecommunity from "./company/onecommunity.jpg";
 import freelance from "./company/freelance.png";
+import ilios from "./company/ilios.png";
 
 import carnevalli from "./carnevalli.png";
 import elainerodrigues from "./elainerodrigues.png";
+import connectree from "./connectree.png";
 
 import gmail from "./contact/gmail.png";
 import linkedin from "./contact/linkedin.png";
@@ -39,7 +38,6 @@ export {
   gmail,
   linkedin,
   phone,
-  postgresql,
   mysql,
   linux,
   onecommunity,
@@ -52,11 +50,9 @@ export {
   menu,
   close,
   css,
-  figma,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   redux,
@@ -66,4 +62,6 @@ export {
   carnevalli,
   elainerodrigues,
   nextjs,
+  ilios,
+  connectree
 };

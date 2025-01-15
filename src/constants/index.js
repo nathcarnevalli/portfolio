@@ -10,12 +10,11 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   mysql,
   linux,
   onecommunity,
+  ilios,
   freelance,
   threejs,
   github,
@@ -23,8 +22,9 @@ import {
   phone,
   gmail,
   elainerodrigues,
+  connectree,
   carnevalli,
-  nextjs,
+  nextjs
 } from "../assets";
 
 export const navLinks = [
@@ -52,11 +52,11 @@ const services = [
     icon: backend,
   },
   {
-    title: "SQL e NoSQL",
+    title: "SQL",
     icon: mobile,
   },
   {
-    title: "Web Design",
+    title: "ORM",
     icon: creator,
   },
 ];
@@ -91,20 +91,12 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "MySQL",
@@ -115,32 +107,43 @@ const technologies = [
     icon: linux,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
 ];
 
 const experiences = [
   {
-    title: "Engenheira de software freelancer",
-    company_name: "Self-employed",
-    icon: freelance,
-    iconBg: "#383E56",
-    date: "Abril 2024 - Presente",
+    title: "Ilios Sistemas",
+    company_name: "Desenvolvedora de software",
+    icon: ilios,
+    iconBg: "#E6DEDD",
+    date: "Setembro 2024 - Presente",
     points: [
-      "Desenvolvo websites com Next.js e Tailwind no frontend, e Node.js, MySQL e ORM Sequelize no backend.",
-      "Gerencio todas as etapas do ciclo de vida do desenvolvimento de software, garantindo que as necessidades do cliente sejam sempre atendidas.",
+      "Desenvolvo funcionalidades no backend do sistema de e-commerce Datlética, utilizando .NET, EF Core e SQL Server",
+      "Otimizo diversos processos críticos, reduzindo tempos de resposta e buscando sempre melhorar a experiência do usuário final.",
     ],
   },
   {
-    title: "Desenvolvedora full-stack voluntária",
+    title: "Freelance",
+    company_name: "Self-employed",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "Abril 2024 - Setembro 2025",
+    points: [
+      "Projetei e desenvolvi websites personalizados utilizando Next.js e Tailwind CSS no frontend, integrados a sistemas backend com Node.js, MySQL e Sequelize.",
+      "Gerenciei todas as etapas do ciclo de vida de desenvolvimento de software, incluindo levantamento de requisitos, planejamento, desenvolvimento, testes até a entrega final.",
+    ],
+  },
+  {
+    title: "Desenvolvedora Full-stack voluntária",
     company_name: "One Community",
     icon: onecommunity,
     iconBg: "#E6DEDD",
     date: "Maio 2024 - Julho 2024",
     points: [
-      "Desenvolvi diferentes funcionalidades no aplicativo HighestGoodNetworkApp utilizando tecnologias MERN (MongoDB, Express.js, React.js, Node.js).",
-      "Realizei revisões periódicas de código e auxiliei na resolução de inconsistências tanto no frontend quanto no backend.",
+      "Implementei melhorias na experiência de usuário e usabilidade da aplicação HighestGoodNetworkApp utilizando tecnologias MERN (MongoDB, Express.js, React.js, Node.js) com voluntários de diversas partes do mundo.",
+      "Realizei revisões de código detalhadas e corrigi bugs, garantindo a estabilidade e a qualidade do software.",
     ],
   },
 ];
@@ -187,6 +190,27 @@ const projects = [
     ],
     image: elainerodrigues,
     link: "https://elainerodriguesadv.com.br/",
+  },
+  {
+    name: "ConnecTree",
+    description:
+      "Site que oferece consultorias especializadas focadas em auxiliar organizações a oferecer serviços para as Forças Armadas.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: connectree,
+    link: "https://connectree.com.br/",
   },
 ];
 
